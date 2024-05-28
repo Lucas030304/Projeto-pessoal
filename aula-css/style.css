@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav {
+  display: flex;
+  align-items: center;  
+  height: 150px;
+  background-color: rgb(60, 5, 47);
+}
+
+
+.nav-icon {
+  flex: 10%;
+  color: white;
+  margin-left: 5%;
+  font-family: 'Sevillana', sans-serif;
+  font-size: 20px;
+  /* border: 1px solid red; */
+  
+}
+
+.nav-icon h1 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.nav-icon h2 {
+  margin-top: 0;
+  font-size: 30px;
+  margin-left:10%;
+}
+.navbar {
+  /* border: 1px solid purple; */
+  flex: 80% ;
+  text-align: right;
+  margin-right: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.navbar a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.navbar i {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+#button-distance {
+  margin-left: 35px;
+}
+
+.first-menu:hover {
+  color: rgb(163, 15, 128);
+  transition: 0.3s;
+}
+
+.second-menu {
+  border: 1px solid white;
+  padding: 16px 30px;
+  text-align: center;
+}
+
+.second-menu:hover {
+  background-color: rgb(163, 15, 128);
+  transition: 0.3s;
+}
+
+
+
+/*
+header {
+ display: flex;
+  background-image: url(image/pexels-victorfreitas-744780.jpg);
+  height: 600px;
+  color: white;
+}
+
+.header-text {
+  border: 1px solid red;
+  flex: 40%;
+  margin-left: 10%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.header-img {
+  flex: 40%;
+  margin-right: 10%;
+  border: 1px solid green;
+}
+
+.header-img img {
+  width: 100%;
+}
