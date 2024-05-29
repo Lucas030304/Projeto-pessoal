@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav {
+  display: flex;
+  align-items: center;  
+  height: 120px;
+  background-color: rgb(60, 5, 47);
+}
+
+
+.nav-icon {
+  flex: 10%;
+  color: white;
+  margin-left: 5%;
+  font-family: 'Sevillana', sans-serif;
+  font-size: 20px;
+  /* border: 1px solid red; */
+  
+}
+
+.nav-icon h1 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.nav-icon h1:hover, .nav-icon h2:hover {
+    color: rgb(163, 15, 128);
+}
+.nav-icon h2 {
+  margin-top: 0;
+  font-size: 30px;
+  margin-left:10%;
+}
+.navbar {
+  /* border: 1px solid purple; */
+  flex: 80% ;
+  text-align: right;
+  margin-right: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.navbar a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.navbar i {
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-top: 5px;
+  
+}
+
+#button-distance {
+  margin-left: 35px;
+}
+
+.first-menu:hover {
+  color: rgb(163, 15, 128);
+  transition: 0.3s;
+}
+
+.second-menu {
+
+  border: 1px solid white;
+  padding: 13px 30px;
+}
+
+.second-menu:hover {
+  background-color: rgb(163, 15, 128);
+  transition: 0.3s;
+}
+
+.btn-contatos {
+    display: flex;
+    justify-content: end;
+    align-items: top;
+    color: white;
+}
+
+
+#teste {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    border-bottom: 0.1px solid white;
+}
+/* ========================================================================================================= */
+
+
+header {
+ /* border: 1px solid red; */
+ height: 600px;
+ background-image: url(image/pexels-chanwalrus-941861.jpg);
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ position: relative;
+ isolation: isolate;
+
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    background: rgb(163, 15, 128);
+    inset: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* =================================================================================================================== */
+
+ .header-text {
+    /* border: 1px solid green; */
+    color: white;
+    flex: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header-text h2 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.header-text h3 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+.header-text p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.saiba  {
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    border: 2px solid white;
+    text-decoration: none;
+    margin-right: 70%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.saiba:hover {
+    background-color: rgb(60, 5, 47);
+    transition: 0.3s;
+}
+.header-img {
+    /* border: 1px solid orangered; */
+    flex: 40%;
+    margin-right: 10%;
+    display: flex;
+    position: relative;
+}
+
+
+
+#img2 {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 15%;
+    top: 12%;
+}
